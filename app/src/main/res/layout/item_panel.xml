@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_card">
+
+    <ImageView
+        android:id="@+id/ivPainel"
+        android:layout_width="@dimen/icone_painel"
+        android:layout_height="@dimen/icone_painel"
+        android:contentDescription="@string/cd_icone_painel" />
+
+    <TextView
+        android:id="@+id/tvPainelTitulo"
+        style="@style/Arcade.Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvPainelDescricao"
+        style="@style/Arcade.Corpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAbrir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/abrir" />
+</LinearLayout>

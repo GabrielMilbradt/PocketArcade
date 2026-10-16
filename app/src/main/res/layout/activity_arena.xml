@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margem_tela">
+
+        <TextView
+            style="@style/Arcade.Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arena_cabecalho" />
+
+        <TextView
+            android:id="@+id/tvJogador"
+            style="@style/Arcade.Corpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvPlacar"
+            style="@style/Arcade.Subtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:gravity="center"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_card">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Arcade.Corpo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/voce" />
+
+                <ImageView
+                    android:id="@+id/ivJogador"
+                    android:layout_width="@dimen/icone_escolha"
+                    android:layout_height="@dimen/icone_escolha"
+                    android:contentDescription="@string/cd_escolha_jogador"
+                    android:src="@drawable/ic_interrogacao" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Arcade.Corpo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dispositivo" />
+
+                <ImageView
+                    android:id="@+id/ivDispositivo"
+                    android:layout_width="@dimen/icone_escolha"
+                    android:layout_height="@dimen/icone_escolha"
+                    android:contentDescription="@string/cd_escolha_dispositivo"
+                    android:src="@drawable/ic_interrogacao" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvResultado"
+            style="@style/Arcade.Subtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:gravity="center"
+            android:text="@string/arena_inicial"
+            android:textColor="@color/neon_magenta" />
+
+        <TextView
+            style="@style/Arcade.Corpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:text="@string/arena_instrucao" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnPedra"
+                    android:layout_width="@dimen/icone_jogada"
+                    android:layout_height="@dimen/icone_jogada"
+                    android:background="@drawable/bg_card"
+                    android:contentDescription="@string/cd_pedra"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_pedra" />
+
+                <TextView
+                    style="@style/Arcade.Corpo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/pedra" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnPapel"
+                    android:layout_width="@dimen/icone_jogada"
+                    android:layout_height="@dimen/icone_jogada"
+                    android:background="@drawable/bg_card"
+                    android:contentDescription="@string/cd_papel"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_papel" />
+
+                <TextView
+                    style="@style/Arcade.Corpo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/papel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnTesoura"
+                    android:layout_width="@dimen/icone_jogada"
+                    android:layout_height="@dimen/icone_jogada"
+                    android:background="@drawable/bg_card"
+                    android:contentDescription="@string/cd_tesoura"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_tesoura" />
+
+                <TextView
+                    style="@style/Arcade.Corpo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/tesoura" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/Arcade.Corpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/empates_nao_somam"
+            android:textSize="@dimen/texto_pequeno" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNovaPartida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:text="@string/nova_partida" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVoltar"
+            style="@style/Widget.Arcade.Button.Outline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/voltar" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEncerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/encerrar_sessao" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

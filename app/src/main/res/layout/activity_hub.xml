@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margem_tela">
+
+        <TextView
+            android:id="@+id/tvSaudacao"
+            style="@style/Arcade.Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvHubSubtitulo"
+            style="@style/Arcade.Corpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hub_subtitulo" />
+
+        <include
+            android:id="@+id/painelScanner"
+            layout="@layout/item_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item" />
+
+        <include
+            android:id="@+id/painelArena"
+            layout="@layout/item_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item" />
+
+        <include
+            android:id="@+id/painelCofre"
+            layout="@layout/item_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item" />
+
+        <include
+            android:id="@+id/painelRandomizador"
+            layout="@layout/item_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item" />
+
+        <LinearLayout
+            android:id="@+id/cardRegras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_card">
+
+            <TextView
+                style="@style/Arcade.Subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regras_titulo" />
+
+            <TextView
+                style="@style/Arcade.Corpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/regras_texto" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEncerrar"
+            style="@style/Widget.Arcade.Button.Outline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margem_item"
+            android:text="@string/encerrar_sessao" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

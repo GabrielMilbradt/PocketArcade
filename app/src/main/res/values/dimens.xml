@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem_tela">20dp</dimen>
+    <dimen name="margem_item">16dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+    <dimen name="raio_card">20dp</dimen>
+    <dimen name="icone_logo">96dp</dimen>
+    <dimen name="icone_painel">56dp</dimen>
+    <dimen name="icone_jogada">72dp</dimen>
+    <dimen name="icone_escolha">96dp</dimen>
+    <dimen name="texto_titulo">28sp</dimen>
+    <dimen name="texto_subtitulo">18sp</dimen>
+    <dimen name="texto_corpo">16sp</dimen>
+    <dimen name="texto_pequeno">13sp</dimen>
+</resources>

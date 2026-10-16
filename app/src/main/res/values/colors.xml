@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Paleta "Grafite e Ouro".
+    Os NOMES foram mantidos para não mexer em layouts/código; só os valores mudaram:
+      neon_cyan    = cor principal (ouro)      -> subtítulos, bordas em foco, destaques
+      neon_magenta = cor de destaque (lilás)   -> mensagens de resultado
+      orange       = cor de ação (azul claro)  -> botões
+-->
+<resources>
+    <color name="bg_dark">#0F1217</color>
+    <color name="surface">#1A1F29</color>
+    <color name="surface_light">#2B3242</color>
+    <color name="neon_cyan">#E5C07B</color>
+    <color name="neon_magenta">#C792EA</color>
+    <color name="orange">#61AFEF</color>
+    <color name="pista_verde">#22C55E</color>
+    <color name="pista_amarelo">#EAB308</color>
+    <color name="pista_cinza">#5C6578</color>
+    <color name="erro">#F87171</color>
+    <color name="text_primary">#E8ECF3</color>
+    <color name="text_muted">#8B93A5</color>
+    <color name="preto">#000000</color>
+    <color name="branco">#FFFFFF</color>
+</resources>

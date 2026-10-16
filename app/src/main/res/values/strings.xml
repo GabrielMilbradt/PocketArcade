@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Arcade</string>
+
+    <string name="aluno_nome">Gabriel Kaynan Vieira Milbradt</string>
+    <string name="aluno_matricula">Matrícula: 20251012000570</string>
+    <string name="aluno_curso">Análise e Desenvolvimento de Sistemas</string>
+
+    <string name="voltar">Voltar ao menu</string>
+    <string name="encerrar_sessao">Encerrar sessão</string>
+    <string name="jogador_label">Jogador: %1$s</string>
+    <string name="apelido_padrao">jogador</string>
+    <string name="abrir">Abrir</string>
+
+    <string name="subtitulo_principal">Central de Desafios</string>
+    <string name="apelido_label">Seu apelido</string>
+    <string name="apelido_hint">Digite seu apelido</string>
+    <string name="entrar">Entrar no Pocket Arcade</string>
+    <string name="dica_individual">Individual ou em dupla.</string>
+    <string name="erro_apelido">O apelido precisa ter pelo menos 3 caracteres.</string>
+    <string name="cd_logo">Logotipo do Pocket Arcade: um controle de videogame</string>
+    <string name="ultimo_modulo">Último módulo usado: %1$s</string>
+    <string name="sessao_encerrada">Sessão encerrada. Escolha um novo apelido para jogar de novo.</string>
+
+    <string name="modulo_scanner">Scanner de Mensagens</string>
+    <string name="modulo_arena">Arena</string>
+    <string name="modulo_cofre">Código Secreto</string>
+    <string name="modulo_randomizador">Randomizador</string>
+
+    <string name="saudacao">Olá, %1$s!</string>
+    <string name="hub_subtitulo">Escolha um desafio e role a tela para ver todos os painéis.</string>
+    <string name="cd_icone_painel">Ícone do desafio</string>
+    <string name="scanner_titulo">Scanner de Mensagens</string>
+    <string name="scanner_desc">Digite uma frase e descubra quantos caracteres, palavras e vogais ela tem. O scanner também inverte o texto e revela se ele é um palíndromo, como Ana ou A sacada da casa.</string>
+    <string name="arena_titulo">Arena</string>
+    <string name="arena_desc">Pedra, Papel e Tesoura contra o dispositivo em uma disputa de melhor de três. Cada rodada tem animação e efeito sonoro. Empates não somam pontos.</string>
+    <string name="cofre_titulo">Código Secreto</string>
+    <string name="cofre_desc">O cofre guarda quatro dígitos diferentes. Você tem oito tentativas e o tempo está correndo. Verde, amarelo e cinza mostram o quanto você chegou perto.</string>
+    <string name="randomizador_titulo">Randomizador</string>
+    <string name="randomizador_desc">Cadastre filmes, comidas, lugares e desafios e deixe o app sortear um item da categoria escolhida. Alterne entre lista e grade e remova itens com um clique longo.</string>
+    <string name="regras_titulo">Regras da casa</string>
+    <string name="regras_texto">1. Todo desafio abre por cima da Central e o botão Voltar ao menu apenas fecha a tela atual.\n\n2. Encerrar sessão leva você de volta à apresentação e informa o último módulo usado.\n\n3. Os resultados de cada jogo ficam na própria tela, sem internet e sem banco de dados.\n\n4. Os efeitos sonoros pausam quando você sai da tela e são liberados quando ela é destruída.\n\n5. Divirta-se e tente bater seu próprio recorde no Código Secreto!</string>
+
+    <string name="scanner_cabecalho">Scanner de Mensagens</string>
+    <string name="scanner_hint">Digite uma mensagem</string>
+    <string name="analisar">Analisar</string>
+    <string name="limpar">Limpar</string>
+    <string name="erro_mensagem_vazia">Digite uma mensagem para analisar.</string>
+    <string name="erro_mensagem_curta">A mensagem precisa ter pelo menos 3 caracteres.</string>
+    <string name="medida">Medida</string>
+    <string name="resultado">Resultado</string>
+    <string name="med_caracteres">Caracteres sem espaços</string>
+    <string name="med_palavras">Palavras</string>
+    <string name="med_vogais">Vogais</string>
+    <string name="med_invertido">Texto invertido</string>
+    <string name="med_palindromo">Palíndromo</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+    <string name="arena_cabecalho">Arena</string>
+    <string name="arena_instrucao">Escolha sua jogada. Vence quem fizer duas vitórias primeiro.</string>
+    <string name="placar">Você %1$d × %2$d Dispositivo</string>
+    <string name="voce">Você</string>
+    <string name="dispositivo">Dispositivo</string>
+    <string name="pedra">Pedra</string>
+    <string name="papel">Papel</string>
+    <string name="tesoura">Tesoura</string>
+    <string name="cd_pedra">Jogar pedra</string>
+    <string name="cd_papel">Jogar papel</string>
+    <string name="cd_tesoura">Jogar tesoura</string>
+    <string name="cd_escolha_jogador">Jogada escolhida por você</string>
+    <string name="cd_escolha_dispositivo">Jogada escolhida pelo dispositivo</string>
+    <string name="arena_inicial">Faça sua jogada!</string>
+    <string name="arena_empate">Empate! Ninguém pontua.</string>
+    <string name="arena_ganhou_rodada">Você ganhou a rodada!</string>
+    <string name="arena_perdeu_rodada">O dispositivo ganhou a rodada.</string>
+    <string name="arena_vitoria_final">Vitória! Você venceu a partida.</string>
+    <string name="arena_derrota_final">Derrota. O dispositivo venceu a partida.</string>
+    <string name="empates_nao_somam">Empates não somam pontos.</string>
+    <string name="nova_partida">Nova partida</string>
+
+    <string name="cofre_cabecalho">Cofre do Código Secreto</string>
+    <string name="cofre_instrucao">Descubra os quatro dígitos diferentes em até 8 tentativas.</string>
+    <string name="cofre_hint">Digite quatro números diferentes</string>
+    <string name="tentar">Tentar</string>
+    <string name="tentativas_status">Tentativas: %1$d de %2$d</string>
+    <string name="legenda_verde">Verde: dígito certo na posição certa.</string>
+    <string name="legenda_amarelo">Amarelo: dígito existe, mas em outra posição.</string>
+    <string name="legenda_cinza">Cinza: dígito que não existe no código.</string>
+    <string name="historico_titulo">Histórico das tentativas</string>
+    <string name="erro_codigo_vazio">Digite quatro números antes de tentar.</string>
+    <string name="erro_codigo_tamanho">Digite exatamente quatro números.</string>
+    <string name="erro_codigo_repetido">Os dígitos não podem se repetir.</string>
+    <string name="pista_resumo">"   %1$d certo(s), %2$d fora de lugar"</string>
+    <string name="fim_vitoria">Cofre aberto! O código era %1$s.</string>
+    <string name="fim_derrota">Fim das tentativas. O código era %1$s.</string>
+    <string name="fim_detalhes">Tentativas: %1$d · Tempo: %2$s</string>
+    <string name="tempo_segundos">%1$.1f s</string>
+
+    <string name="rand_cabecalho">Randomizador</string>
+    <string name="rand_valor_hint">Palavra, filme, lugar…</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sortear">Sortear</string>
+    <string name="ver_grade">Ver em grade</string>
+    <string name="ver_lista">Ver em lista</string>
+    <string name="erro_valor_vazio">Digite um valor para cadastrar.</string>
+    <string name="rand_sorteado_inicial">Escolha uma categoria e toque em Sortear</string>
+    <string name="rand_sorteado">Sorteado: %1$s</string>
+    <string name="rand_sem_itens">Nenhum item cadastrado em %1$s.</string>
+    <string name="rand_contador">%1$d item(ns) cadastrado(s) · clique longo para excluir</string>
+    <string name="item_removido">Item removido: %1$s</string>
+    <string name="cd_item_palavra">Item cadastrado</string>
+
+    <string-array name="categorias">
+        <item>Filmes</item>
+        <item>Comidas</item>
+        <item>Lugares</item>
+        <item>Desafios</item>
+    </string-array>
+</resources>
